@@ -295,8 +295,11 @@ img {
 }
 
 .etoiles{
-    width: 5.3125rem;
+    width: .9375rem;
     margin-bottom: .375rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
 }
 
 .mini-para{
@@ -361,6 +364,17 @@ padding: 1.875rem 4.6875rem;
   font-size: .75rem;
   color: #333;
   line-height: 1.9;
+}
+
+.about{
+  padding-left: .9375rem;
+}
+
+.form {
+  display: flex;
+  gap: 1rem;
+  margin: 0.1rem;
+  align-items: center;
 }
 
 
